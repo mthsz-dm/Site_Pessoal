@@ -1,0 +1,52 @@
+{
+    "colegas": [
+    {
+      "id": 1,
+      "name": "Marcos",
+      "photo_url": "/assets/img/Pessoa_aleatoria1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Eduardo",
+      "photo_url": "/assets/img/Pessoa_aleatoria2.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "João",
+      "photo_url": "/assets/img/Pessoa_aleatoria3.jpeg"
+    }
+  ],
+  
+  "destaques": [
+    {
+      "id": 1,
+      "title": "Meta e Google revelam nova geração de chip de IA",
+      "description": "Processadores vão concorrer com semicondutores de IA das gigantes Intel e Nvidia.",
+      "url": "/assets/img/meta.PNG"
+    },
+    {
+      "id": 2,
+      "title": "PIX: ferramenta registrou 200 milhões de transações",
+      "description": "Total de operações desta sexta superou o recorde anterior de 178,7 milhões.",
+      "url": "/assets/img/pix.PNG"
+    },
+    {
+      "id": 3,
+      "title": "Unreal Engine",
+      "description": "A poderosa ferramenta para desenvolvimento de jogos.",
+      "url": "/assets/img/Unreal.png"
+    },
+    {
+      "id": 4,
+      "title": "Setor de Tecnologia no Brasil",
+      "description": "Demanda 159 mil profissionais e forma apenas 53 mil.",
+      "url": "/assets/img/Vaga_TI.PNG"
+    },
+    {
+      "id": 5,
+      "title": "Milei se encontra com Elon Musk",
+      "description": "Oferece apoio para investigações do STF no Brasil.",
+      "url": "/assets/img/elon_musk.PNG"
+    }
+  ]
+}
