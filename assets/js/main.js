@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (repoName) {
     loadData(`https://api.github.com/repos/Matheus-Spirit/${repoName}`, data => {
-      document.getElementById('repo-name').textContent = `Repositório: ${data.name}`;
+      document.getElementById('repo-name').textContent = `${data.name}`;
       document.getElementById('repo-description').textContent = data.description || 'Sem descrição disponível';
       document.getElementById('repo-created-at').textContent = new Date(data.created_at).toLocaleDateString();
       document.getElementById('repo-language').textContent = data.language || 'N/A';
