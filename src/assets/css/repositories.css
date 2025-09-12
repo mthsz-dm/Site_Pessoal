@@ -1,0 +1,75 @@
+/* repositorios */
+.section {
+  background: #fff;
+  padding: 3rem 2rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: black;
+  display: block;
+  margin: 0.5rem auto 0;
+  border-radius: 5px;
+}
+
+.card {
+  border: none;
+  text-align: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #6c757d;
+  font-size: 0.95rem;
+  min-height: 50px;
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  gap: 1.5rem;
+}
+
+.btn-custom {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: #280137;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  background: rgb(46, 46, 46);
+  transform: translateY(-2px);
+}

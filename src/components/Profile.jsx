@@ -3,7 +3,7 @@ export default function Profile() {
     <header className="profile">
       <img src="/assets/img/perfil.jpg" alt="Foto de perfil" />
       <h1>Matheus Dias Mendes</h1>
-      <p>Desenvolvedor Fullstack | Criador de Soluções</p>
+      <p>Técnico em Informática | Estudante de Engenharia de Software</p>
     </header>
   )
 }

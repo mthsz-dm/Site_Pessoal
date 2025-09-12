@@ -1,0 +1,11 @@
+/* footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.footer h5 {
+  font-weight: 500;
+}
