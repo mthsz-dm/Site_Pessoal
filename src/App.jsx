@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Profile from "./components/Profile"
 import Courses from "./components/Courses"
 import Skills from "./components/Skills"
+import './App.css'
 
 function App() {
   return (
