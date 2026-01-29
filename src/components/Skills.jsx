@@ -4,8 +4,10 @@ import { useState } from "react";
 const skills = [
   { name: "React", desc: "" },
   { name: "Java", desc: "" },
+  { name: "JavaScript", desc: "" },
+  { name: "HTML/CSS", desc: "" },
   { name: "Mysql", desc: "" },
-  { name: "C#", desc: "" },
+  { name: "C", desc: "" },
   { name: "Git/GitHub", desc: "" },
 ];
 
@@ -43,7 +45,7 @@ export default function Skills() {
   };
 
   return (
-    <div className="skills-container">
+    <div className="skills-container" id ="habilidades">
       <h1 className="skills-title">⚡ Minhas Habilidades</h1>
       <div className="skills-grid">
         {skills.map((skill, i) => (

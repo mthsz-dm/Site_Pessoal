@@ -13,14 +13,16 @@ import { TbSortAscendingLetters,TbBrandTypescript  } from "react-icons/tb";
 const courses = [
   { id: 1, name: "Desenvolvimento de Games", level: 20, Icon: IoGameController, type: "Danki Code" },
   { id: 2, name: "Unreal Engine", level: 100, Icon: IoGameController, type: "EBAC" },
-  { id: 3, name: "Cálculo", level: 75, Icon: IoCalculatorSharp, type: "Udemy" },
+  //{ id: 3, name: "Cálculo", level: 75, Icon: IoCalculatorSharp, type: "Udemy" },
   { id: 4, name: "Java Completo", level: 27, Icon: FaJava, type: "Udemy" },
-  { id: 5, name: "AWS Educate", level: 5, Icon: FaAws, type: "AWS Educate" },
+  //{ id: 5, name: "AWS Educate", level: 5, Icon: FaAws, type: "AWS Educate" },
   { id: 6, name: "Git/GitHub", level: 100, Icon: FaGithub, type: "Udemy" },
   { id: 7, name: "Python", level: 5, Icon: FaPython, type: "Udemy" },
-  { id: 7, name: "JavaScript e TypeScript", level: 5, Icon: TbBrandTypescript , type: "Udemy" },
+  { id: 7, name: "JavaScript e TypeScript", level: 15, Icon: TbBrandTypescript , type: "Udemy" },
   { id: 8, name: "Ingles", level: 80, Icon: TbSortAscendingLetters, type: "CCAA" },
-  { id: 9, name: "Espanhol", level: 10, Icon: TbSortAscendingLetters, type: "Duolingo" },
+  { id: 9, name: "Espanhol", level: 15, Icon: TbSortAscendingLetters, type: "Duolingo" },
+  //{ id: 10, name: "Cyber Security", level: 10, Icon: TbSortAscendingLetters, type: "Udemy" },
+
 ].map((s) => ({
   ...s,
   nivel: s.level >= 100 ? "Finalizado" : s.level >= 50 ? "Intermediario" : "Iniciante",

@@ -10,7 +10,7 @@ export default function Navbar() {
               <a className="nav-link" href="#contato">Contato</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Habilidades">Habilidades</a>
+              <a className="nav-link" href="#habilidades">Habilidades</a>
             </li>
           </ul>
       </div>

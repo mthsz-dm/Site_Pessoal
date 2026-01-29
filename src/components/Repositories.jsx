@@ -11,7 +11,7 @@ export default function Repositories() {
 
   return (
     <section className="section" id="repositorios">
-    <h2>Repositórios</h2>
+    <h2>Repositórios do Github</h2>
     <div className="repo-grid">
         {repos.map(repo => (
         <div key={repo.id} className="card h-100">
