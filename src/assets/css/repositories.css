@@ -34,7 +34,11 @@
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  border-color: #b700ff;
+  box-shadow: 
+    0 0 5px #b700ff,
+    0 0 10px #b700ff,
+    0 0 20px #b700ff;
 }
 
 .card-body {
@@ -72,6 +76,10 @@
 .btn-custom:hover {
   background: rgb(46, 46, 46);
   transform: translateY(-2px);
+}
+
+#repositorios img{
+  width: 500px;
 }
 
 @media (min-width: 768px) {

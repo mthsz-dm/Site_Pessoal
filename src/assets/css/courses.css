@@ -52,8 +52,11 @@
 }
 
 .course-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  
+  border-color: #b700ff;
+  box-shadow: 
+    0 0 5px #b700ff,
+    0 0 10px #b700ff,
+    0 0 20px #b700ff;
 }
 
 .course-icon {

@@ -34,7 +34,7 @@ export default function Courses() {
     <div className="courses-page">
       <div className="courses-container">
         <header className="courses-header">
-          <h1>Cursos Feitos</h1>
+          <h1 style={{color: "white"}}>Cursos Feitos</h1>
         </header>
 
         <main className="courses-grid">

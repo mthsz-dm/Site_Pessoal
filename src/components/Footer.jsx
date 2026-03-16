@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer className="footer" id="contato">
-      <p>Desenvolvido por</p>
-      <h5>Matheus Dias Mendes</h5>
+      <p style={{color: "white"}}>Desenvolvido por</p>
+      <h5 style={{color: "white"}}>Matheus Dias Mendes</h5>
       
     </footer>
   )
