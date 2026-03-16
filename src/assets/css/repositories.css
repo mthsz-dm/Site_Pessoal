@@ -1,5 +1,5 @@
 .section {
-  background: #fff;
+
   padding: 3rem 2rem;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   margin-bottom: 3rem;
@@ -29,6 +29,7 @@
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background-color: white;
 }
 
 .card:hover {
@@ -71,4 +72,8 @@
 .btn-custom:hover {
   background: rgb(46, 46, 46);
   transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+
 }
