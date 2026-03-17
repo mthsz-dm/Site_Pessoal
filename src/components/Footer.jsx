@@ -1,9 +1,10 @@
+import { useTranslation } from 'react-i18next';
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="footer" id="contato">
-      <p style={{color: "white"}}>Desenvolvido por</p>
-      <h5 style={{color: "white"}}>Matheus Dias Mendes</h5>
-      
+      <p>{t("footer")}</p>
+      <h5>Matheus Dias Mendes</h5>
     </footer>
-  )
+  );
 }

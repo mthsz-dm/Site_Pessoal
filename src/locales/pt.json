@@ -1,0 +1,15 @@
+{
+  "titulo": "Matheus Dias Mendes",
+  "sobremim": "Sou Técnico em Informática e estudante de Engenharia de Software. Possuo experiência prática em desenvolvimento adquirida em projetos acadêmicos, tanto no ensino médio técnico pelo COTEMIG quanto na faculdade. Tenho interesse em desenvolvimento de software, trabalhando com tecnologias como Java, JavaScript, React",
+
+  "nav_rep": "Repositorios",
+  "nav_contat": "Contato",
+  "nav_hab": "Habilidades",
+
+  "habilidades": "Minhas Habilidades",
+  "cursos": "Cursos Feitos",
+  "repositorios": "Repositorios do Github",
+  "ver_no_git": "Ver no Github",
+
+  "footer": "Desenvolvido por"
+}

@@ -8,6 +8,7 @@ import "./assets/css/repositories.css";
 import "./assets/css/courses.css";
 import "./assets/css/skills.css";
 import App from "./App.jsx";
+import "./i18.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

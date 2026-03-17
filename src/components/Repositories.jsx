@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 export default function Repositories() {
   const [repos, setRepos] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     fetch("https://api.github.com/users/mthsz-dm/repos")
@@ -11,7 +13,7 @@ export default function Repositories() {
 
   return (
     <section className="section" id="repositorios">
-      <h2 style={{color: "white"}}>Repositórios do Github</h2>
+      <h2>{t("repositorios")}</h2>
       <div className="repo-grid">
         {repos.map((repo) => (
           <div key={repo.id} className="card h-100">
@@ -28,7 +30,7 @@ export default function Repositories() {
               <span>💻 {repo.language || "N/A"}</span>
               <br />
               <a href={repo.html_url} target="_blank" className="btn-custom">
-                Ver no GitHub
+              {t('ver_no_git')}
               </a>
             </div>
           </div>

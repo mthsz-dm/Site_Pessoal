@@ -6,6 +6,7 @@ import {
   SiNodedotjs,
 
 } from "react-icons/si";
+import { useTranslation } from 'react-i18next';
 import { FaJava, FaAws, FaGithub, FaPython } from "react-icons/fa";
 import { IoGameController, IoCalculatorSharp } from "react-icons/io5";
 import { TbSortAscendingLetters,TbBrandTypescript  } from "react-icons/tb";
@@ -30,11 +31,12 @@ const courses = [
 
 
 export default function Courses() {
+  const { t } = useTranslation();
   return (
     <div className="courses-page">
       <div className="courses-container">
         <header className="courses-header">
-          <h1 style={{color: "white"}}>Cursos Feitos</h1>
+          <h1>{t('cursos')}</h1>
         </header>
 
         <main className="courses-grid">

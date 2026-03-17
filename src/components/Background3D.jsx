@@ -10,7 +10,7 @@ export default function Background3D() {
       height: "100%",
       zIndex: -1
     }}>
-      <Spline scene="https://prod.spline.design/uwjRZkJ6RNrdwkNk/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/fJ2ptJKzT-sDkpfO/scene.splinecode" />
     </div>
   );
 }

@@ -12,8 +12,10 @@
   "dependencies": {
     "@splinetool/react-spline": "^4.1.0",
     "framer-motion": "^12.23.12",
+    "i18next": "^25.8.18",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-i18next": "^16.5.8",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const skills = [
   { name: "React", desc: "" },
@@ -13,7 +14,7 @@ const skills = [
 
 export default function Skills() {
   const [rotations, setRotations] = useState({});
-
+  const { t } = useTranslation();
   const handleMouseMove = (e, index) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -45,8 +46,8 @@ export default function Skills() {
   };
 
   return (
-    <div className="skills-container" id ="habilidades">
-      <h1 className="skills-title">⚡ Minhas Habilidades</h1>
+    <div className="skills-container" id="habilidades">
+      <h1 className="skills-title">⚡ {t("habilidades")}</h1>
       <div className="skills-grid">
         {skills.map((skill, i) => (
           <motion.div

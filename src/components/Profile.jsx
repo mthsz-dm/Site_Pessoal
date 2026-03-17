@@ -1,11 +1,12 @@
+import { useTranslation } from 'react-i18next';
 export default function Profile() {
+  const { t } = useTranslation();
   return (
     <header className="profile">
-      <h1 style={{color: "white"}}>Matheus Dias Mendes</h1>
-      <p>Matheus Dias Mendes é Técnico em Informática e estudante de Engenharia de Software. 
-        Possui experiência prática em desenvolvimento adquirida em projetos acadêmicos, tanto 
-        no ensino médio técnico pelo COTEMIG quanto na faculdade. Tenho interesse em desenvolvimento de software, 
-        trabalhando com tecnologias como Java, JavaScript, React </p>
+      <h1>{t("titulo")}</h1>
+      <p>
+        {t("sobremim")}
+      </p>
     </header>
-  )
+  );
 }
