@@ -1,0 +1,25 @@
+.exp-container {
+  padding: 40px;
+  color: white;
+}
+.exp-container h2 {
+  color: black;
+}
+
+.exp-card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #1a1a2e;
+  transition: 0.3s;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(108, 99, 255, 0.5);
+}
+
+.exp-info {
+  color: #aaa;
+  margin-bottom: 10px;
+}

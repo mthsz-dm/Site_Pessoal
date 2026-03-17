@@ -7,6 +7,26 @@ export default function Navbar() {
       <div className="container">
         <ul className="navbar-nav">
           <li className="nav-item">
+            <a className="nav-link" href="#perfil">
+              {t("nav_perfil")}
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#experiencias">
+              {t("nav_exp")}
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#habilidades">
+              {t("nav_hab")}
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#cursos">
+              {t("nav_curso")}
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="#repositorios">
               {t("nav_rep")}
             </a>
@@ -14,11 +34,6 @@ export default function Navbar() {
           <li className="nav-item">
             <a className="nav-link" href="#contato">
               {t("nav_contat")}
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#habilidades">
-              {t("nav_hab")}
             </a>
           </li>
           <li>

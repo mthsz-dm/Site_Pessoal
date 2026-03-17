@@ -7,6 +7,8 @@ import "./assets/css/footer.css";
 import "./assets/css/repositories.css";
 import "./assets/css/courses.css";
 import "./assets/css/skills.css";
+import "./assets/css/Contact.css";
+import "./assets/css/Experiences.css";
 import App from "./App.jsx";
 import "./i18.js";
 

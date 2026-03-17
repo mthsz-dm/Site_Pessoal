@@ -1,0 +1,47 @@
+.contato-container {
+  padding: 40px;
+  color: white;
+}
+
+.contato-container h2{
+    color:black;
+}
+.contato-links {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.contato-links a {
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: bold;
+}
+
+.contato-form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.contato-form button {
+  padding: 10px;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contato-form button:hover {
+  background: #574fd6;
+}
