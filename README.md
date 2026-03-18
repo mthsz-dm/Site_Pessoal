@@ -16,7 +16,7 @@ Este é meu portfólio pessoal desenvolvido com foco em apresentar minhas habili
 
 ## 🌐 Acesse o projeto
 
-👉 [Clique aqui para visualizar o site](https://seu-site-aqui.com)
+👉 [Clique aqui para visualizar o site](https://sitepessoal-roan.vercel.app)
 
 ---
 
@@ -44,10 +44,10 @@ Este é meu portfólio pessoal desenvolvido com foco em apresentar minhas habili
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/mthsz-dm/Site_Pessoal.git
 
 # Acesse a pasta
-cd seu-repositorio
+cd src
 
 # Instale as dependências
 npm install
@@ -69,21 +69,6 @@ http://localhost:5173
 
 ---
 
-## 🛠️ Estrutura do projeto
-
-```
-src/
- ├── components/
- │   ├── Experiencias/
- │   ├── Contato/
- │   └── ...
- ├── locales/ (traduções)
- ├── i18n.js
- └── App.jsx
-```
-
----
-
 ## 🌍 Internacionalização
 
 O projeto utiliza **i18next** para tradução, permitindo alternar entre idiomas facilmente.
@@ -92,8 +77,8 @@ O projeto utiliza **i18next** para tradução, permitindo alternar entre idiomas
 
 ## 📬 Contato
 
-* LinkedIn: https://linkedin.com/in/seuuser
-* Email: [seuemail@email.com](mailto:seuemail@email.com)
+* LinkedIn: https://www.linkedin.com/in/matheus-dias-mendes-ba8a30234/
+* Email: [matheusdiasmendespop@gmail.com](mailto:matheusdiasmendespop@gmail.com)
 
 ## 📌 Status do projeto
 
