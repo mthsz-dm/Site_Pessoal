@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 export default function Contato() {
+  const { t } = useTranslation();
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -15,16 +17,16 @@ export default function Contato() {
 
   return (
     <section className="contato-container">
-      <h2>Contato</h2>
+      <h2>{t("contato")}</h2>
 
       <div className="contato-links">
         <a href="https://www.linkedin.com/in/matheus-dias-mendes-ba8a30234/">💼 LinkedIn</a>
       </div>
 
       <form onSubmit={handleSubmit} className="contato-form">
-        <input type="text" name="nome" placeholder="Seu nome" required />
-        <input type="email" name="email" placeholder="Seu email" required />
-        <textarea name="mensagem" placeholder="Sua mensagem" required />
+        <input type="text" name="nome" placeholder={t("seu_nome")} required />
+        <input type="email" name="email" placeholder={t("seu_email")} required />
+        <textarea name="mensagem" placeholder={t("seu_mensagem")} required />
 
         <button type="submit">Enviar</button>
       </form>

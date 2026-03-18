@@ -5,11 +5,36 @@
   "nav_rep": "Repositories",
   "nav_contat": "Contact",
   "nav_hab": "Skills",
+  "nav_perfil": "Profile",
+  "nav_exp": "Experiences",
+  "nav_curso": "Courses",
 
   "habilidades": "My Skills",
   "cursos": "Completed Courses",
   "repositorios": "GitHub Repositories",
   "ver_no_git": "View on GitHub",
+
+  "experiencias": {
+    "titulo": "Experiences",
+    "lista": [
+      {
+        "empresa": "Academic Project - COTEMIG",
+        "cargo": "Developer",
+        "periodo": "2023 - 2024",
+        "descricao": "Development of web applications using HTML, CSS, and JS."
+      },
+      {
+        "empresa": "College Project",
+        "cargo": "Fullstack Developer",
+        "periodo": "2024 - Present",
+        "descricao": "Creation of systems with frontend and backend integration."
+      }
+    ]
+  },
+  "contato": "Contact",
+  "seu_nome": "Your name",
+  "seu_email": "Your email",
+  "seu_mensagem": "Your message",
 
   "footer": "Developed by"
 }

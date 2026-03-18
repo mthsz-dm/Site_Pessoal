@@ -14,5 +14,28 @@
   "repositorios": "Repositorios do Github",
   "ver_no_git": "Ver no Github",
 
+  "experiencias": {
+    "titulo": "Experiências",
+    "lista": [
+      {
+        "empresa": "Projeto Acadêmico - COTEMIG",
+        "cargo": "Desenvolvedor",
+        "periodo": "2023 - 2024",
+        "descricao": "Desenvolvimento de aplicações web utilizando HTML CSS e JS."
+      },
+      {
+        "empresa": "Projeto Faculdade",
+        "cargo": "Desenvolvedor Fullstack",
+        "periodo": "2024 - Atual",
+        "descricao": "Criação de sistemas com integração de frontend e backend."
+      }
+    ]
+  },
+
+  "contato": "Contato",
+  "seu_nome":"Seu nome",
+  "seu_email": "Seu email",
+  "seu_mensagem": "Seu mesagem",
+
   "footer": "Desenvolvido por"
 }

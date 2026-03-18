@@ -1,25 +1,12 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 export default function Experiencias() {
-  const experiencias = [
-    {
-      empresa: "Projeto Acadêmico - COTEMIG",
-      cargo: "Desenvolvedor",
-      periodo: "2023 - 2024",
-      descricao:
-        "Desenvolvimento de aplicações web utilizando JavaScript e React."
-    },
-    {
-      empresa: "Projeto Faculdade",
-      cargo: "Desenvolvedor Fullstack",
-      periodo: "2024 - Atual",
-      descricao:
-        "Criação de sistemas com integração de frontend e backend."
-    }
-  ];
+  const { t } = useTranslation();
+  const experiencias = t("experiencias.lista", { returnObjects: true });
 
   return (
-    <section className="exp-container">
+    <section className="exp-container" id="experiencias">
       <h2>Experiências</h2>
 
       {experiencias.map((exp, index) => (

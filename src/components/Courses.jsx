@@ -33,7 +33,7 @@ const courses = [
 export default function Courses() {
   const { t } = useTranslation();
   return (
-    <div className="courses-page">
+    <div className="courses-page" id="cursos">
       <div className="courses-container">
         <header className="courses-header">
           <h1>{t('cursos')}</h1>
