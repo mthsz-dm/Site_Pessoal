@@ -37,9 +37,9 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <div>
+            <div className="lang-switch">
               <button onClick={() => i18n.changeLanguage("pt")}>PT</button>
-              <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+              <button onClick={() => i18n.changeLanguage("en")}>EN</button> 
             </div>
           </li>
         </ul>

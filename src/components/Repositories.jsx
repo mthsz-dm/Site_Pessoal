@@ -20,6 +20,7 @@ export default function Repositories() {
             <div className="card-body">
               <img
                 className="repo-img"
+                loading="lazy"
                 src={`https://opengraph.githubassets.com/1/mthsz-dm/${repo.name}`}
                 alt={repo.name}
               />
